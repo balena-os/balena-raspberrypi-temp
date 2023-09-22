@@ -16,6 +16,16 @@ SRC_URI:remove = "file://initramfs-image-bundle.cfg"
 
 require recipes-kernel/linux/linux-raspberrypi.inc
 
+do_deploy:append () {
+    BOOTENV_FILE="${DEPLOYDIR}/${KERNEL_PACKAGE_NAME}/bootenv"
+    grub-editenv "${BOOTENV_FILE}" create
+    grub-editenv "${BOOTENV_FILE}" set "resin_root_part=A"
+    grub-editenv "${BOOTENV_FILE}" set "bootcount=0"
+    grub-editenv "${BOOTENV_FILE}" set "upgrade_available=0"
+}
+
+do_deploy[depends] += " grub-native:do_populate_sysroot"
+
 KERNEL_DTC_FLAGS += "-@ -H epapr"
 
 INITRAMFS_IMAGE = "balena-image-bootloader-initramfs"
