@@ -8,7 +8,7 @@
 	branch = kirkstone
 [submodule "layers/meta-raspberrypi"]
 	path = layers/meta-raspberrypi
-	url = https://github.com/balena-os/meta-raspberrypi-temp.git
+	url = git@github.com:balena-os/meta-raspberrypi-temp.git
 [submodule "layers/meta-balena"]
 	path = layers/meta-balena
 	url = https://github.com/balena-os/meta-balena.git
