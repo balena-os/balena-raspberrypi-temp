@@ -1,4 +1,19 @@
 - commits:
+    - subject: Change Raspberry Pi 5 slug to raspberrypi5
+      hash: ab6f4ba9f20ff214547bee770939ae912a9c73d0
+      body: |
+        We will only release 64 bits OS version so let's not suffix it with -64
+      footer:
+        Changelog-entry: Change Raspberry Pi 5 slug to raspberrypi5
+        changelog-entry: Change Raspberry Pi 5 slug to raspberrypi5
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 4.0.13+rev2
+  title: ""
+  date: 2023-09-27T06:57:15.484Z
+- commits:
     - subject: Use balena bootloader on Raspberry Pi 5
       hash: 57b5b2f6b221506c95b09abd671bf8dbfb412f9c
       body: ""
