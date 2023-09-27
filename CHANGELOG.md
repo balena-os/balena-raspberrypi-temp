@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v4.0.13+rev6
+## (2023-09-27)
+
+* Use different config.txt for raspberrypi5-64 [Florin Sarbu]
+
 # v4.0.13+rev5
 ## (2023-09-27)
 

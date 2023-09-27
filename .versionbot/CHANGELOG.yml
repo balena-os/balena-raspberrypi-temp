@@ -1,4 +1,26 @@
 - commits:
+    - subject: Use different config.txt for raspberrypi5-64
+      hash: fa953c119b0649de59717fb4b3e11ec6c9056011
+      body: >
+        Using the BSP supplied config.txt makes the board not boot, complains it
+        cannot
+
+        find the SD card device.
+
+        Suspicion is that the size of the config.txt file is the culprit but until we
+
+        have more time to investigate let's just use the config.txt from Raspberry Pi OS.
+      footer:
+        Changelog-entry: Use different config.txt for raspberrypi5-64
+        changelog-entry: Use different config.txt for raspberrypi5-64
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 4.0.13+rev6
+  title: ""
+  date: 2023-09-27T12:44:26.687Z
+- commits:
     - subject: Update to latest BSP branch in which we keep adding RPI5 support
       hash: ac9e7754b2d5347a60ba17b086c401e51b59b0ac
       body: ""
