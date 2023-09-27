@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fix raspberrypi5 machine name in balena-image-initramfs.bbappend
+      hash: 2598d4446d10fc45b0b169e19a191e795e3cefca
+      body: ""
+      footer:
+        Changelog-entry: Fix raspberrypi5 machine name in balena-image-initramfs.bbappend
+        changelog-entry: Fix raspberrypi5 machine name in balena-image-initramfs.bbappend
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 4.0.13+rev4
+  title: ""
+  date: 2023-09-27T11:17:26.312Z
+- commits:
     - subject: Increase rootfs maxsize to 40 MiB for raspberrypi5
       hash: d4c23d5776e20ac7c30f949ee73b73b6bc015979
       body: >

@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v4.0.13+rev4
+## (2023-09-27)
+
+* Fix raspberrypi5 machine name in balena-image-initramfs.bbappend [Florin Sarbu]
+
 # v4.0.13+rev3
 ## (2023-09-27)
 
