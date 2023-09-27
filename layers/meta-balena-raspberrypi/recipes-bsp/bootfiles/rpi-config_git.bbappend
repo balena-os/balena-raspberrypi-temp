@@ -1,3 +1,13 @@
+FILESEXTRAPATHS:append:raspberrypi5-64 := ":${THISDIR}/files"
+
+SRC_URI:append:raspberrypi5-64 = " \
+    file://config.txt \
+"
+
+do_deploy:append:raspberrypi5-64() {
+    cp ${WORKDIR}/config.txt ${DEPLOYDIR}/bootfiles/
+}
+
 do_deploy:append() {
     # Enable i2c by default
     echo "dtparam=i2c_arm=on" >>${DEPLOYDIR}/bootfiles/config.txt
