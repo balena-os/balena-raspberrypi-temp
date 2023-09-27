@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v4.0.13+rev3
+## (2023-09-27)
+
+* Increase rootfs maxsize to 40 MiB for raspberrypi5 [Florin Sarbu]
+
 # v4.0.13+rev2
 ## (2023-09-27)
 

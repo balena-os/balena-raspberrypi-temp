@@ -1,4 +1,24 @@
 - commits:
+    - subject: Increase rootfs maxsize to 40 MiB for raspberrypi5
+      hash: d4c23d5776e20ac7c30f949ee73b73b6bc015979
+      body: >
+        Build fails with:
+
+        ERROR: balena-image-initramfs-1.0-r0 do_image_cpio: The rootfs size 36864(K) exceeds IMAGE_ROOTFS_MAXSIZE: 32768(K)
+
+
+        Until we find out why this happens, let's increase it to unblock the build
+      footer:
+        Changelog-entry: Increase rootfs maxsize to 40 MiB for raspberrypi5
+        changelog-entry: Increase rootfs maxsize to 40 MiB for raspberrypi5
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 4.0.13+rev3
+  title: ""
+  date: 2023-09-27T11:10:04.122Z
+- commits:
     - subject: Change Raspberry Pi 5 slug to raspberrypi5
       hash: ab6f4ba9f20ff214547bee770939ae912a9c73d0
       body: |
