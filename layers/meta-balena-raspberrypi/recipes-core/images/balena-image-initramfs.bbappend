@@ -1,0 +1,1 @@
+IMAGE_ROOTFS_MAXSIZE:raspberrypi5 = "40960"
