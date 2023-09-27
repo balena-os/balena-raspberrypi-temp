@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 57aaaf0107f42f88956e9216dfb497bbf5c1d38e
+      hash: 0fbdecd4e77056df5a765bc70fd4900a751c7b43
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 57aaaf0107f42f88956e9216dfb497bbf5c1d38e
+        changelog-entry: Update layers/meta-balena to 57aaaf0107f42f88956e9216dfb497bbf5c1d38e
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested:
+        - commits:
+            - subject: "patch: Add custom build docs"
+              hash: 1d5f8ba92d5bd5b7a1fd26fa25473febc8e097d2
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+              author: Vipul Gupta (@vipulgupta2048)
+              nested: []
+          version: meta-balena-4.0.14
+          title: ""
+          date: 2023-09-27T13:13:37.324Z
+  version: 4.0.14
+  title: ""
+  date: 2023-09-27T13:47:06.309Z
+- commits:
     - subject: Use different config.txt for raspberrypi5-64
       hash: fa953c119b0649de59717fb4b3e11ec6c9056011
       body: >
