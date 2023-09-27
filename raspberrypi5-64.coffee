@@ -3,8 +3,7 @@ deviceTypesCommon = require '@resin.io/device-types/common'
 
 module.exports =
 	version: 1
-	slug: 'raspberrypi5-64'
-	aliases: [ 'raspberrypi5-64' ]
+	slug: 'raspberrypi5'
 	name: 'Raspberry Pi 5'
 	arch: 'aarch64'
 	state: 'released'
