@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update to latest BSP branch in which we keep adding RPI5 support
+      hash: ac9e7754b2d5347a60ba17b086c401e51b59b0ac
+      body: ""
+      footer:
+        Changelog-entry: Update to latest BSP branch in which we keep adding RPI5 support
+        changelog-entry: Update to latest BSP branch in which we keep adding RPI5 support
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 4.0.13+rev5
+  title: ""
+  date: 2023-09-27T11:36:11.500Z
+- commits:
     - subject: Fix raspberrypi5 machine name in balena-image-initramfs.bbappend
       hash: 2598d4446d10fc45b0b169e19a191e795e3cefca
       body: ""

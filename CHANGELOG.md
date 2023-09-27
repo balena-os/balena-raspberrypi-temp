@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v4.0.13+rev5
+## (2023-09-27)
+
+* Update to latest BSP branch in which we keep adding RPI5 support [Florin Sarbu]
+
 # v4.0.13+rev4
 ## (2023-09-27)
 
