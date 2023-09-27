@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v4.0.13+rev1
+## (2023-09-27)
+
+* Use balena bootloader on Raspberry Pi 5 [Michal Toman]
+
 # v4.0.13
 ## (2023-09-26)
 

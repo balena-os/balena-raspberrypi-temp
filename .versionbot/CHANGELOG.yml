@@ -1,4 +1,20 @@
 - commits:
+    - subject: Use balena bootloader on Raspberry Pi 5
+      hash: 57b5b2f6b221506c95b09abd671bf8dbfb412f9c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Changelog-entry: Use balena bootloader on Raspberry Pi 5
+        changelog-entry: Use balena bootloader on Raspberry Pi 5
+        Signed-off-by: Michal Toman <michalt@balena.io>
+        signed-off-by: Michal Toman <michalt@balena.io>
+      author: Michal Toman
+      nested: []
+  version: 4.0.13+rev1
+  title: ""
+  date: 2023-09-27T06:39:07.096Z
+- commits:
     - subject: Update layers/meta-balena to 57352e943a786ab900f9dd9d07fcd39963babdf6
       hash: 448b8b34efa8d4e35ff88d24cec48242e9d11a34
       body: Update layers/meta-balena
