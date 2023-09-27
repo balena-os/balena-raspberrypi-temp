@@ -1,4 +1,21 @@
 - commits:
+    - subject: Update to latest BSP branch in which we keep adding RPI5 support
+      hash: 44087648b5bd1db468c8fdbfef01ab36fd57fba5
+      body: >
+        This update brings in the latest kernel update:
+
+        https://github.com/balena-os/linux-2712/commit/d6e6b9afa8fa93b97c61f1617e1b1590583bc7a7
+      footer:
+        Changelog-entry: Update to latest BSP branch in which we keep adding RPI5 support
+        changelog-entry: Update to latest BSP branch in which we keep adding RPI5 support
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 4.0.14+rev1
+  title: ""
+  date: 2023-09-27T19:05:45.645Z
+- commits:
     - subject: Update layers/meta-balena to 57aaaf0107f42f88956e9216dfb497bbf5c1d38e
       hash: 0fbdecd4e77056df5a765bc70fd4900a751c7b43
       body: Update layers/meta-balena
