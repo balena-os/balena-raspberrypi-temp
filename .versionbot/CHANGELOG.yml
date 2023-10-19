@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 2d44c9cb5c64b185fed20caf59d846de4d4b8280
+      hash: 3b961ff4c953407099b923c092ed82fbc7ff8bd8
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 2d44c9cb5c64b185fed20caf59d846de4d4b8280
+        changelog-entry: Update contracts to 2d44c9cb5c64b185fed20caf59d846de4d4b8280
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "device: Add Compulab UCM-iMX93"
+              hash: 2bbde3e92d6e1a6c3f9d63e9e79b14b70b755f80
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexnadru Costache <alexandru@balena.io>
+                signed-off-by: Alexnadru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.79
+          title: ""
+          date: 2023-10-19T12:44:49.999Z
+  version: 4.0.27+rev3
+  title: ""
+  date: 2023-10-19T15:34:50.517Z
+- commits:
     - subject: Update layers/poky to 47d212a57f7c26ebd35970b78803ad36572b57bd
       hash: 8e9e0b4a0350cc78f60e37f148b1e84ef247bc5a
       body: Update layers/poky
