@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v4.1.11+rev4
+## (2023-12-14)
+
+* Update BSP submodule to include the vc4-kms-v3d-pi5 overlay [Florin Sarbu]
+
 # v4.1.11+rev3
 ## (2023-12-13)
 

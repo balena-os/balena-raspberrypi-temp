@@ -1,4 +1,20 @@
 - commits:
+    - subject: Update BSP submodule to include the vc4-kms-v3d-pi5 overlay
+      hash: c571f9a30f9a519079dc16a2e0f4ac885fe36b7c
+      body: |
+        This will bring in the addition of the vc4-kms-v3d-pi5 overlay
+        required for the Pi 5.
+      footer:
+        Changelog-entry: Update BSP submodule to include the vc4-kms-v3d-pi5 overlay
+        changelog-entry: Update BSP submodule to include the vc4-kms-v3d-pi5 overlay
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 4.1.11+rev4
+  title: ""
+  date: 2023-12-14T13:09:23.514Z
+- commits:
     - subject: Update layers/meta-openembedded to
         402affcc073db39f782c1ebfd718edd5f11eed4c
       hash: 1093f512aadbd1b6a129e773c1646a779f8045af
