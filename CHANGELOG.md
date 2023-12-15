@@ -1,6 +1,157 @@
 Change log
 -----------
 
+# v5.0.11
+## (2023-12-15)
+
+
+<details>
+<summary> Update layers/meta-balena to 6a73c51909f49e11abbce78ba645eb80d91d4bba [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.0.11
+> ### (2023-12-14)
+> 
+> * update-balena-supervisor: fix supervisor.conf when image already downloaded [Alex Gonzalez]
+> 
+> ## meta-balena-5.0.10
+> ### (2023-12-13)
+> 
+> * hostapp-update-hooks: add debug mode [Alex Gonzalez]
+> 
+> ## meta-balena-5.0.9
+> ### (2023-12-12)
+> 
+> * timesync-https: increase default connection max time to 10s [Alex Gonzalez]
+> 
+> ## meta-balena-5.0.8
+> ### (2023-12-11)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to c681ee1 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### leviathan-2.29.22
+>> #### (2023-12-11)
+>> 
+>> * Update Lock file maintenance [Self-hosted Renovate Bot]
+>> 
+>> ### leviathan-2.29.21
+>> #### (2023-12-04)
+>> 
+>> * Update balena-os/leviathan-worker to v2.9.26 [Self-hosted Renovate Bot]
+>> 
+>> ### leviathan-2.29.20
+>> #### (2023-12-04)
+>> 
+>> * Update Lock file maintenance [Self-hosted Renovate Bot]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-5.0.7
+> ### (2023-12-06)
+> 
+> * Update actions/setup-python action to v5 [Self-hosted Renovate Bot]
+> 
+> ## meta-balena-5.0.6
+> ### (2023-12-05)
+> 
+> * os-helpers-logging: replace broken container check [Alex Gonzalez]
+> 
+> ## meta-balena-5.0.5
+> ### (2023-12-02)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to eaf8774 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### leviathan-2.29.19
+>> #### (2023-12-01)
+>> 
+>> * add jetson-agx-orin-devkit resin-boot index [rcooke-warwick]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-5.0.4
+> ### (2023-12-01)
+> 
+> 
+> <details>
+> <summary> Update balena-engine to v20.10.41 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-engine-20.10.41
+>> #### (2023-12-01)
+>> 
+>> * Simplified development doc 'Build and run' instructions [Ken Bannister]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-5.0.3
+> ### (Invalid date)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v15.0.4 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-15.0.4
+>> #### (2023-11-22)
+>> 
+>> * Only build sqlite3 from source [Felipe Lalanne]
+>> * Update @balena/systemd to 0.5.0 [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-15.0.3
+>> #### (2023-11-22)
+>> 
+>> * Cache last reported current state to /mnt/root/tmp [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-5.0.2
+> ### (Invalid date)
+> 
+> * balena-rollback: If applicable, run device specific healthchecks [Alexandru Costache]
+> 
+> ## meta-balena-5.0.1
+> ### (2023-11-29)
+> 
+> * Make Engine healthcheck performance test aware of device type [Leandro Motta Barros]
+> 
+> ## meta-balena-5.0.0
+> ### (2023-11-28)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v15 [Felipe Lalanne] </summary>
+> 
+>> ### balena-supervisor-15.0.1
+>> #### (2023-10-25)
+>> 
+>> * Expose ports from port mappings on services [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-15.0.0
+>> #### (2023-10-23)
+>> 
+>> * Ignore `expose` service compose configuration [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-14.13.14
+>> #### (2023-10-23)
+>> 
+>> * Add note regading API jitter on target state poll [Felipe Lalanne]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v4.1.11+rev4
 ## (2023-12-14)
 
