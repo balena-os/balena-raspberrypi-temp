@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/poky to d9532264b9f8677914bfe6646c8cee7aa108d175
+      hash: f049960b6df66cbd39bb7699d0b3e2e86518a0df
+      body: Update layers/poky
+      footer:
+        Changelog-entry: Update layers/poky to d9532264b9f8677914bfe6646c8cee7aa108d175
+        changelog-entry: Update layers/poky to d9532264b9f8677914bfe6646c8cee7aa108d175
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 5.1.8+rev2
+  title: ""
+  date: 2024-01-11T08:59:56.712Z
+- commits:
     - subject: Update contracts to 14a10d925b56660c59471447ca74ae324da68f79
       hash: 0ed39bb92b01739e9f6632dc3b93a0da5e2b75ee
       body: Update contracts
