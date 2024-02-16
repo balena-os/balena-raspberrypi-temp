@@ -1,4 +1,69 @@
 - commits:
+    - subject: Update contracts to 0c54ce2d25baac5485f3828dbfed58c33f881256
+      hash: 4733e01ff28a1ee69fd66b2288d999bb3af181a5
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 0c54ce2d25baac5485f3828dbfed58c33f881256
+        changelog-entry: Update contracts to 0c54ce2d25baac5485f3828dbfed58c33f881256
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "odyssey-x86: Update icon to latest revision"
+              hash: 83ad917b2027f2a6fecd8d1422984987efc9da13
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.94
+          title: ""
+          date: 2024-02-14T10:35:34.159Z
+        - commits:
+            - subject: "hw.device-type: Add Kontron i.MX8M Mini device"
+              hash: bfae3a09557f6bb7e3fffb888337339d9b900ebf
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: joris-bright <joris@bright-energy.eu>
+                signed-off-by: joris-bright <joris@bright-energy.eu>
+              author: joris-bright
+          version: contracts-2.0.93
+          title: ""
+          date: 2024-02-08T08:40:46.444Z
+        - commits:
+            - subject: "hw.device-type: Add phyboard-lyra-am62xx-2 device"
+              hash: d9e57b1f2432aac0ea4b6d9e6285e805e5359a6f
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Atanas Bunchev <atanas.bunchev@konsulko.com>
+                signed-off-by: Atanas Bunchev <atanas.bunchev@konsulko.com>
+              author: Atanas Bunchev
+          version: contracts-2.0.92
+          title: ""
+          date: 2024-02-01T10:43:30.336Z
+        - commits:
+            - subject: Remove generic-amd64-fde device type
+              hash: a9e475afc5c9a0cc02fe39293b83c2476af2a7e7
+              body: |
+                FDE is a feature, it does not need a separate device type.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+          version: contracts-2.0.91
+          title: ""
+          date: 2024-01-31T10:51:22.461Z
+  version: 5.1.34+rev1
+  title: ""
+  date: 2024-02-16T13:13:12.941Z
+- commits:
     - subject: Update layers/meta-balena to b72d2791eb6b8e7a8fbb7b25cc43649a6c5cc281
       hash: f9ba70924e9b9eea896ae1a8ae420e96a8588bec
       body: Update layers/meta-balena
