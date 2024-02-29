@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v5.1.37+rev2
+## (2024-02-29)
+
+* Update layers/poky to 6cb27ba5379e0132d7ec46f1633c24855a3fa298 [Self-hosted Renovate Bot]
+
 # v5.1.37+rev1
 ## (2024-02-23)
 
