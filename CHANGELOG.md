@@ -1,6 +1,70 @@
 Change log
 -----------
 
+# v5.1.37+rev8
+## (2024-06-02)
+
+
+<details>
+<summary> Update contracts to 94c4f90e950560f6287a87bea93a7a250c942665 [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.104
+> ### (2024-06-02)
+> 
+> * jetson-orin-nano-seeed-j3010: Specify RAM size for the Seeed J3010 [Alexandru Costache]
+> * jetson-orin-nano-seeed-j3010: add Seeed J3010 device-type [Alex Suykov]
+> 
+> ## contracts-2.0.103
+> ### (2024-04-11)
+> 
+> * Remove Ubuntu Lunar 23.04 since it's EOL [Thodoris Greasidis]
+> 
+> ## contracts-2.0.102
+> ### (2024-04-11)
+> 
+> * Remove Fedora 36 since it's EOL [Thodoris Greasidis]
+> 
+> ## contracts-2.0.101
+> ### (2024-04-10)
+> 
+> * Remove outdated jdk & jre 8 [Thodoris Greasidis]
+> * Remove python 3.7.16 since it's in EOL [Thodoris Greasidis]
+> * Remove node v14 & v16 since they are EOL [Thodoris Greasidis]
+> 
+> ## contracts-2.0.100
+> ### (2024-04-08)
+> 
+> * Add Advantech ECU1370 to hardware contract. [Lisandro Pérez Meyer]
+> 
+> ## contracts-2.0.99
+> ### (2024-04-07)
+> 
+> * Add node v20.12.0 for debian [Thodoris Greasidis]
+> 
+> ## contracts-2.0.98
+> ### (2024-03-26)
+> 
+> * hw.device-type: Add bluechiptechnology-db1 [crichardson]
+> 
+> ## contracts-2.0.97
+> ### (2024-03-21)
+> 
+> * hw.device-type: Add beagleplay device [delhiryder]
+> 
+> ## contracts-2.0.96
+> ### (2024-03-14)
+> 
+> * hw.device-type: Add beaglebone-play device [delhiryder]
+> 
+> ## contracts-2.0.95
+> ### (2024-02-26)
+> 
+> * sw.os+hw.device-type: Update Jetson Orin repositories [Alexandru Costache]
+> * jetson-orin-nx-seeed-j4012: Add ubuntu and debian distro tpl files [Alexandru Costache]
+> 
+
+</details>
+
 # v5.1.37+rev7
 ## (2024-05-30)
 
