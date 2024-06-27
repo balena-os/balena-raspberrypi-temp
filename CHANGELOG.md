@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v5.3.21+rev4
+## (2024-06-27)
+
+* Update BSP in order to get newer kernel version 6.6.22 [Florin Sarbu]
+
 # v5.3.21+rev3
 ## (2024-06-20)
 
