@@ -1,4 +1,77 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 7fa652ca218ce38ec260360c01064b483fa4dc8d
+      hash: 5a0fdeef1b20c53b2c3e308ed25b059640aeb9d8
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 7fa652ca218ce38ec260360c01064b483fa4dc8d
+        changelog-entry: Update balena-yocto-scripts to 7fa652ca218ce38ec260360c01064b483fa4dc8d
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Support runner selection in the test matrix
+              hash: d409cb0fbaa307a179973b60e5faff8cda6bc34b
+              body: >
+                Default to self-hosted X64 with KVM for now to align with
+                Jenkins but in the future
+
+                we should consider using GitHub hosted runners for the testbot
+                workers.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: Allow both combinatorial and include syntax for test_matrix
+              hash: 2bfc3a0d72830626366cf210f4fe9a0e649688c5
+              body: >
+                The include syntax allows full control over settings used
+
+                in each test job, but the combinatorial is simpler to write
+
+                for basic use cases.
+
+
+                Rather than force one, we can allow both and default to the
+                simple
+
+                syntax.
+
+
+                Marking as minor since the input syntax has changed, but isn't
+
+                currently used in production anywhere.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.24.0
+          title: ""
+          date: 2024-06-26T21:26:13.711Z
+        - commits:
+            - subject: Refactor secrets and variables to use environments
+              hash: c46eb9cfa4a272f00af4029c31e355477169802a
+              body: |
+                Reduce the required secrets and inputs required by
+                relying on vars and secrets set in each GitHub Environment.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.23.1
+          title: ""
+          date: 2024-06-26T12:43:22.833Z
+  version: 5.3.21+rev5
+  title: ""
+  date: 2024-06-27T20:04:56.098Z
+- commits:
     - subject: Update BSP in order to get newer kernel version 6.6.22
       hash: 3bff8c355a43da506713b296842e37c7f3d488b9
       body: ""
