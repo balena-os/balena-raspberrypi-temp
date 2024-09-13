@@ -25,3 +25,7 @@
 	path = contracts
 	url = https://github.com/balena-io/contracts.git
 	branch = master
+[submodule "layers/meta-hailo"]
+	path = layers/meta-hailo
+	url = git@github.com:hailo-ai/meta-hailo.git
+	branch = kirkstone-v3.29.1

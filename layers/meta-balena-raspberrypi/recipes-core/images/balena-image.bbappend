@@ -92,3 +92,8 @@ IMAGE_INSTALL:append:raspberrypi4-superhub = " \
     phoenix-peripheral-gpio-wdt \
     phoenix-peripheral-rtc-sync \
 "
+
+IMAGE_INSTALL:append:raspberrypi5-64 = " \
+    hailo-firmware \
+    hailo-pci \
+"
