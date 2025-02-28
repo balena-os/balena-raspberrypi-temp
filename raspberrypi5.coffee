@@ -17,11 +17,11 @@ module.exports =
 	options: [ networkOptions.group ]
 
 	yocto:
-		machine: 'raspberrypi5-64'
+		machine: 'raspberrypi5'
 		image: 'balena-image'
 		fstype: 'balenaos-img'
 		version: 'yocto-kirkstone'
-		deployArtifact: 'balena-image-raspberrypi5-64.balenaos-img'
+		deployArtifact: 'balena-image-raspberrypi5.balenaos-img'
 		compressed: true
 
 	configuration:
