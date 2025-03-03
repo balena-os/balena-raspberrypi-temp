@@ -6,9 +6,6 @@
 	path = layers/meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded.git
 	branch = kirkstone
-[submodule "layers/meta-raspberrypi"]
-	path = layers/meta-raspberrypi
-	url = git@github.com:balena-os/meta-raspberrypi-temp.git
 [submodule "layers/meta-balena"]
 	path = layers/meta-balena
 	url = https://github.com/balena-os/meta-balena.git
@@ -25,3 +22,7 @@
 	path = contracts
 	url = https://github.com/balena-io/contracts.git
 	branch = master
+[submodule "layers/meta-raspberrypi"]
+	path = layers/meta-raspberrypi
+	url = https://github.com/agherzan/meta-raspberrypi.git
+	branch = kirkstone
