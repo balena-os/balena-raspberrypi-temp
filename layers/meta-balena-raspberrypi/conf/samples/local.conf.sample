@@ -14,7 +14,7 @@
 #MACHINE ?= "raspberrypi3-unipi-neuron"
 #MACHINE ?= "raspberrypi4-superhub"
 #MACHINE ?= "raspberrypi4-unipi-neuron"
-#MACHINE ?= "raspberrypi5-64"
+#MACHINE ?= "raspberrypi5"
 
 # More info meta-resin/README.md
 #TARGET_REPOSITORY ?= ""
@@ -40,8 +40,8 @@ KERNEL_IMAGETYPE:raspberrypi3-64="Image.gz"
 KERNEL_BOOTCMD:raspberrypi3-64 = "booti"
 KERNEL_IMAGETYPE:raspberrypi4-64="Image.gz"
 KERNEL_BOOTCMD:raspberrypi4-64 = "booti"
-KERNEL_IMAGETYPE:raspberrypi5-64="Image.gz"
-KERNEL_BOOTCMD:raspberrypi5-64 = "booti"
+KERNEL_IMAGETYPE:raspberrypi5="Image.gz"
+KERNEL_BOOTCMD:raspberrypi5 = "booti"
 KERNEL_IMAGETYPE:raspberrypi0-2w-64 = "Image.gz"
 KERNEL_BOOTCMD:raspberrypi0-2w-64 = "booti"
 

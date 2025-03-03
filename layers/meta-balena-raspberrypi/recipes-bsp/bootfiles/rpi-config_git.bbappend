@@ -1,10 +1,10 @@
-FILESEXTRAPATHS:append:raspberrypi5-64 := ":${THISDIR}/files"
+FILESEXTRAPATHS:append:raspberrypi5 := ":${THISDIR}/files"
 
-SRC_URI:append:raspberrypi5-64 = " \
+SRC_URI:append:raspberrypi5 = " \
     file://config.txt \
 "
 
-do_deploy:append:raspberrypi5-64() {
+do_deploy:append:raspberrypi5() {
     cp ${WORKDIR}/config.txt ${DEPLOYDIR}/bootfiles/
 }
 

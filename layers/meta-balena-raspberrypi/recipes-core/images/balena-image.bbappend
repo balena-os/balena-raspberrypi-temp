@@ -25,12 +25,12 @@ BALENA_BOOT_PARTITION_FILES:rpi = " \
     bootfiles:/ \
     "
 
-BALENA_BOOT_PARTITION_FILES:remove:raspberrypi5-64 = " \
+BALENA_BOOT_PARTITION_FILES:remove:raspberrypi5 = " \
     u-boot.bin:/${SDIMG_KERNELIMAGE} \
     boot.scr:/boot.scr \
     "
 
-BALENA_BOOT_PARTITION_FILES:append:raspberrypi5-64 = " \
+BALENA_BOOT_PARTITION_FILES:append:raspberrypi5 = " \
     balena-bootloader/${KERNEL_IMAGETYPE}-initramfs-${MACHINE}.bin:/${SDIMG_KERNELIMAGE} \
     balena-bootloader/bootenv:/bootenv \
     "
@@ -68,11 +68,11 @@ python overlay_dtbs_handler () {
 do_resin_boot_dirgen_and_deploy[prefuncs] += "overlay_dtbs_handler"
 
 IMAGE_INSTALL:append:rpi = " u-boot"
-IMAGE_INSTALL:remove:raspberrypi5-64 = " u-boot"
-IMAGE_INSTALL:append:raspberrypi5-64 = " grub-editenv"
+IMAGE_INSTALL:remove:raspberrypi5 = " u-boot"
+IMAGE_INSTALL:append:raspberrypi5 = " grub-editenv"
 
-do_rootfs[depends] += "${@oe.utils.conditional('MACHINE','raspberrypi5-64',' virtual/balena-bootloader:do_deploy','',d)}"
-do_image_balenaos_img[depends] += "${@oe.utils.conditional('MACHINE','raspberrypi5-64',' virtual/balena-bootloader:do_deploy','',d)}"
+do_rootfs[depends] += "${@oe.utils.conditional('MACHINE','raspberrypi5',' virtual/balena-bootloader:do_deploy','',d)}"
+do_image_balenaos_img[depends] += "${@oe.utils.conditional('MACHINE','raspberrypi5',' virtual/balena-bootloader:do_deploy','',d)}"
 
 do_resin_boot_dirgen_and_deploy[depends] += "virtual/kernel:do_install"
 
@@ -82,8 +82,8 @@ RPI_KERNEL_DEVICETREE:remove:revpi = "bcm2708-rpi-zero-w.dtb bcm2710-rpi-3-b-plu
 IMAGE_ROOTFS_SIZE:raspberrypi4-superhub="409600"
 
 # Double the root partition size from 320MiB to 640MiB and boot partition size from 40MiB to 80MiB for the Pi5
-IMAGE_ROOTFS_SIZE:raspberrypi5-64="655360"
-BALENA_BOOT_SIZE:raspberrypi5-64="81920"
+IMAGE_ROOTFS_SIZE:raspberrypi5="655360"
+BALENA_BOOT_SIZE:raspberrypi5="81920"
 
 IMAGE_INSTALL:append:raspberrypi4-superhub = " \
     phoenix-peripheral \

@@ -9,4 +9,4 @@ CMDLINE_DEBUG = ""
 
 # Necessary for balena bootloader to work
 # These will not be passed to the actual kernel
-CMDLINE:append:raspberrypi5-64 := " balena_stage2 maxcpus=0"
+CMDLINE:append:raspberrypi5 := " balena_stage2 maxcpus=0"
